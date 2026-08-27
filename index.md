@@ -1,4 +1,4 @@
-# Mustafa Sarı | Bilgisayar Mühendisliği Öğrencisi & Veri Bilimi İsteklisi
+# Mustafa Sarı | Bilgisayar Mühendisliği & Veri Bilimi 
 
 Ben Mustafa. Veri bilimi, makine öğrenmesi ve derin öğrenme teknolojileri üzerine projeler geliştiren bir bilgisayar mühendisliği öğrencisiyim. Geliştirdiğim modellerde teorik altyapıyı güçlü tutmaya ve gerçek dünya problemlerine odaklanmaya özen gösteriyorum.
 
