@@ -16,7 +16,7 @@ Sıcak pres hattından çıkan metal parçalardaki hataların tespiti için geli
   <img src="images/dataguess/press_hat.jpg" width="400">
 </p>
 
-Hat üzerinde hızlı karar verebilmesi için YOLOv11 Nano seçildi. Hatalar çok ince olduğundan görüntüler küçültülmeden 1024×1024 çözünürlükte eğitildi.
+**Model:** YOLOv11 Nano · 1024×1024
 
 <p align="center">
   <img src="images/dataguess/press_egitim_sonuclari.jpg" width="800">
