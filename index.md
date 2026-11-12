@@ -27,12 +27,25 @@ Sıcak pres hattından çıkan metal parçalardaki hataların tespiti için geli
 
 **Precision** 0.97 · **Recall** 0.97 · **mAP50** 0.98 · **mAP50-95** 0.72
 
+### Kamera ile cam panel ölçümü
+Cam panelin en ve boyunu, pişirme bölgelerinin konum ve çaplarını ölçüp teknik resimle karşılaştıran ve OK/NOK sonucu veren bir ölçüm sistemi.
+
+<p align="center">
+  <img src="images/dataguess/cam_panel_olcum.jpg" width="800">
+</p>
+
+**Yöntem:** Distorsiyon ve perspektif düzeltmesi · Parçanın kendisiyle kalibrasyon · Alt-piksel kenar tespiti · Daire uydurma
+
+**Sonuç:** ±0.02 mm tekrarlanabilirlik · Ölçüm başına ~5 sn
+
+**Teknolojiler:** Python · OpenCV · NumPy · DepthAI
+
 ### Diğer örnek çalışmalar
 Farklı üretim alanlarında yer aldığım POC ve saha çalışmalarından örnekler.
 
 <p align="center">
   <img src="images/dataguess/poc_plastik_parca.jpg" width="260">
-  <img src="images/dataguess/poc_pres_kalibi.jpg" width="260">
+  <img src="images/dataguess/saha_etiket.jpg" width="260">
   <img src="images/dataguess/poc_elektronik_kart.jpg" width="260">
 </p>
 
