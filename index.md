@@ -11,7 +11,7 @@ Bilgisayar mühendisliği son sınıf öğrencisiyim. Yapay zeka alanında, ağ�
 Dataguess'te uzun dönem yapay zeka mühendisliği stajımı yapıyorum ve üretim hatları için görüntü işleme modelleri geliştiriyorum. Veri gizliliği nedeniyle çalışmalarımın yalnızca bazı kısımlarını paylaşıyorum.
 
 ### Pres Hattında Hata Tespiti
-Sıcak pres hattından çıkan metal parçalardaki hataların tespiti için geliştirilen bir model. Veri etiketleme ve model eğitimini ben yaptım, modelin sahadaki cihazda çalıştırılmasına uzaktan destek verdim.
+Sıcak pres hattından çıkan metal parçalardaki hataların tespiti için geliştirilen bir model. Modelin veri etiketleme ve eğitim çalışmalarında yer aldım, sahadaki cihazda çalıştırılmasına uzaktan destek verdim.
 
 <p align="center">
   <img src="images/dataguess/press_etiket.jpg" width="400">
