@@ -1,6 +1,6 @@
 # Mustafa Sarı | Bilgisayar Mühendisliği ve Yapay Zeka 
 
-Veri bilimi, makine öğrenmesi ve derin öğrenme odaklı projeler geliştiren bilgisayar mühendisliği öğrencisiyim.
+Yapay zeka alanında, özellikle bilgisayarlı görü üzerine projeler geliştiren bilgisayar mühendisliği öğrencisiyim.
 
 ---
 
