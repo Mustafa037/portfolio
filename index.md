@@ -1,15 +1,17 @@
 # Mustafa Sarı | Bilgisayar Mühendisliği ve Yapay Zeka
 
-Yapay zeka alanında, özellikle bilgisayarlı görü üzerine projeler geliştiren bilgisayar mühendisliği öğrencisiyim.
+Bilgisayar mühendisliği son sınıf öğrencisiyim. Yapay zeka alanında, ağırlıklı olarak bilgisayarlı görü üzerine çalışıyorum ve Dataguess'te endüstriyel yapay zeka projelerinde yer alıyorum.
+
+[LinkedIn](https://www.linkedin.com/in/mustafa-sar%C4%B1-2a0805286)
 
 ---
 
 ## Dataguess | Endüstriyel Yapay Zeka
 
-Dataguess'te yapay zeka mühendisliği stajımı yapıyorum ve üretim hatları için görüntü işleme modelleri geliştiriyorum. Veri gizliliği nedeniyle çalışmalarımın yalnızca bazı kısımlarını paylaşıyorum.
+Dataguess'te uzun dönem yapay zeka mühendisliği stajımı yapıyorum ve üretim hatları için görüntü işleme modelleri geliştiriyorum. Veri gizliliği nedeniyle çalışmalarımın yalnızca bazı kısımlarını paylaşıyorum.
 
 ### Pres Hattında Hata Tespiti
-Sıcak pres hattından çıkan metal parçalardaki hataların tespiti için geliştirilen bir model.
+Sıcak pres hattından çıkan metal parçalardaki hataların tespiti için geliştirilen bir model. Veri etiketleme ve model eğitimini ben yaptım, modelin sahadaki cihazda çalıştırılmasına uzaktan destek verdim.
 
 <p align="center">
   <img src="images/dataguess/press_etiket.jpg" width="400">
@@ -41,7 +43,7 @@ Cam panelin en ve boyunu, pişirme bölgelerinin konum ve çaplarını ölçüp 
 **Teknolojiler:** Python · OpenCV · NumPy · DepthAI
 
 ### Diğer Örnek Çalışmalar
-Farklı üretim alanlarında yer aldığım POC ve saha çalışmalarından örnekler.
+Farklı üretim alanlarında yer aldığım POC ve saha çalışmalarından örnekler. Bu çalışmalarda Luxonis OAK kameralarla bağlantı kurup görüntü topladım ve eğitilen modelleri kameralara deploy ettim.
 
 <p align="center">
   <img src="images/dataguess/poc_plastik_parca.jpg" width="260">
@@ -56,6 +58,7 @@ Farklı üretim alanlarında yer aldığım POC ve saha çalışmalarından örn
 ### 1. Mutabık: Fiş OCR ve Mutabakat Sistemi
 Fiş fotoğrafını OCR ile okuyup sonucu Matrah + KDV = Toplam kuralıyla doğrulayan sistem; tutmayan fişleri nedeniyle birlikte "şüpheli" işaretliyor.
 * **Özellikler:** OpenCV ile ön işleme, PaddleOCR ile okuma, ödeme çapraz kontrolü, harcama paneli ve telefondan çekim için mobil PWA.
+* **Sonuç:** Sentetik bozulmalı test setinde alan bazında %96–100 doğruluk, CPU'da fiş başına ortalama 2 sn. 239 otomatik test.
 * **Teknolojiler:** Python, FastAPI, PaddleOCR, OpenCV, SQLite, Streamlit, Docker
 * [Kaynak Kodları](https://github.com/Mustafa037/mutabik)
 
@@ -68,24 +71,16 @@ YOLOv8 tabanlı iki aşamalı sistem: önce plaka bölgesi tespit edilip kırpı
 * [Canlı Demo](https://number-plate-recognition-app-6sv7vxpkfkpk6w3pkt692l.streamlit.app/)
 
 
-### 3. Dermatoskopik Görüntülerle Deri Kanseri Tespiti
-ISIC 2018 veri seti üzerinde YOLOv8, EfficientNet, ResNet ve MobileNet mimarileriyle lezyon sınıflandırması.
-* **Sonuç:** YOLOv8-Cls ile **%81.15 Doğruluk**, EfficientNet-B0 ile Melanom için **%74.26 Recall** başarısı.
+### 3. Dermatoskopik Görüntülerle Deri Kanseri Sınıflandırması
+Yapay Sinir Ağları dersi kapsamında 4 kişilik ekiple yaptığımız proje. ISIC 2018 veri setinde YOLOv8-Cls, EfficientNet (B0–B3), MobileNetV2 ve ResNet50 mimarilerini aynı eğitim koşullarında karşılaştırdık.
+* **Sonuç:** En yüksek genel doğruluk YOLOv8-Cls ile %81.15, melanomda en yüksek recall EfficientNet-B0 ile %74.26.
 * **Teknolojiler:** PyTorch, YOLOv8, Scikit-Learn
-* [Kaynak Kodları & Rapor](https://github.com/Mustafa037/skin-cancer-classification-deep-learning)
+* [Kaynak Kodları ve Rapor](https://github.com/Mustafa037/skin-cancer-classification-deep-learning)
 
 
-### 4. Diyabet Risk Tahmini & Canlı Web Sistemi
-Pima Indians Diabetes veri seti üzerinde klinik öznitelik mühendisliği uygulanarak geliştirilen canlı çıkarım uygulaması.
-* **Özellikler:** Eksik veri iyileştirmesi, Glukoz/İnsülin oranı, BMI/yaş segmentasyonu ve Random Forest sınıflandırması.
-* **Teknolojiler:** Python, Scikit-Learn, Streamlit, Pandas
-* [Kaynak Kodları](https://github.com/Mustafa037/Diabetes-risk-prediction-app-ML)
-* [Canlı Demo](https://diabetes-risk-prediction-app-ml-tkfrjp7u4vewzjcj9cjkfz.streamlit.app/)
+## Diğer Çalışmalar
 
-
-### 5. Machine Learning Cookbook
-Keşifsel veri analizi, regresyon, SVM, Naive Bayes ve hiperparametre optimizasyonu çalışmalarımı içeren pratik öğrenme günlüğü.
-* **Teknolojiler:** Scikit-Learn, Pandas, Seaborn
-* [Notebook Havuzu](https://github.com/Mustafa037/machine-learning-exercises)
+* **Diyabet Risk Tahmini:** Pima veri setinde eksik veri iyileştirmesi ve öznitelik mühendisliği (Glukoz/İnsülin oranı, BMI/yaş grupları) ile Random Forest tabanlı risk tahmini yapan Streamlit uygulaması. [Kaynak Kodları](https://github.com/Mustafa037/Diabetes-risk-prediction-app-ML) · [Canlı Demo](https://diabetes-risk-prediction-app-ml-tkfrjp7u4vewzjcj9cjkfz.streamlit.app/)
+* **Machine Learning Cookbook:** Keşifsel veri analizi, regresyon, SVM, Naive Bayes ve hiperparametre optimizasyonu çalışmalarımı içeren notebook havuzu. [Notebook Havuzu](https://github.com/Mustafa037/machine-learning-exercises)
 
 ---
